@@ -124,12 +124,12 @@ main section.tips img{
     margin-left: 3em;
 }
 
-
+/*afbeelding shirt naar links, maar tekst moet nog naar recht */
 main section.tips img.shirt {
-    float: left; /* Verplaatst de afbeelding naar links */
-    margin-right: 3em; /* Ruimte rechts van de afbeelding */
-    margin-left: 0; /* Geen extra ruimte links */
-    margin-top: -10em; /* Houd consistent met andere afbeeldingen */
+    float: left; 
+    margin-right: 3em; 
+    margin-left: 0; 
+    margin-top: -10em; 
 }
 
 
@@ -143,25 +143,27 @@ a img {
 
 
 
-
-/* Verhoog de grootte van de afbeeldingen onder h2 en zet ze meer naar links */
-section img {
-    width: 50%; /* Verhoog de grootte van de afbeeldingen onder h2 */
-    margin: 1em 0; /* Voeg wat ruimte toe boven en onder de afbeeldingen */
-}
-
-
+/*zet de afbeeldingen onder werkwijze om en om*/
 section img:nth-child(even) {
-    float: right; /* Even afbeeldingen (2e, 4e, etc.) rechts */
+    float: right; 
     margin-left: 20px;
 }
 
 
-/* Zorg ervoor dat de afbeeldingen onder h2 de gewenste grootte hebben */
+
 main section img {
-    width: 55%; /* Maak de afbeeldingen groter */
-    margin: 0.5em; /* Voeg wat extra ruimte toe tussen de afbeeldingen */
+    width: 55%;
+    margin: 0.5em; 
 }
+
+/*  de afbeeldingen onder h2 bij 3e pagina */
+main section.home img {
+    width: 50%; 
+    margin: 0.5em; 
+    margin-bottom: 2em;
+}
+
+
 
 
 
