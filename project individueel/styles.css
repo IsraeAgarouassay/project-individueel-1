@@ -1,0 +1,110 @@
+body {
+    background-color: #FCE4EB;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;  
+}
+
+nav ul li {
+    margin-right: 2em;
+    margin-left: 0.5em;
+}
+
+/*font aanpassen*/
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: #ED6D64;
+}
+
+/* Logo grootte */
+nav ul li img {
+    width: 90%;
+}
+
+/*font aanpassen*/
+main h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #E94F77;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+main img{
+    width: 80%;
+    margin-left: 2.7em;
+}
+
+
+/*font aanpassen*/
+main h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #ED6D63;
+    background-color: #F4A6B9; 
+    padding: 0.4em; 
+    border: 0.1em solid #F6B4C1; 
+    border-radius: 0.2em; 
+}
+
+
+main section p{
+    font-size: 1.17em;
+    margin-right: 1em;
+}
+
+main section img{
+    width: 40%;
+    margin-left: 6.5em;
+    
+}
+
+
+/*foto's op 2e pagina*/
+main section.collage {
+    display: flex; 
+    justify-content: center; 
+}
+
+main section.collage img {
+    width: 30%; 
+    height: auto; 
+    margin: 0.5em; 
+    margin-top: 2em;
+}
+
+
+
+main section h1{
+    margin-right: 2em;
+    font-size: 1.7em;
+}
+
+div p{
+    max-width: 60%;
+    margin-bottom: 2.5em;
+    text-align: left;
+    margin-left: 1em;
+}
+
+div img{
+    float: right;
+    width: 4em;
+    height: 5.4em;
+    margin-top: -8em;
+    margin-right: 1.5em;
+}
+
+
+
+
+
