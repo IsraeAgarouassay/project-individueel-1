@@ -100,10 +100,68 @@ div img{
     float: right;
     width: 4em;
     height: 5.4em;
-    margin-top: -8em;
+    margin-top: -1em;
     margin-right: 1.5em;
 }
 
+
+
+
+
+main section.tips p{
+    max-width: 67%;
+    margin-bottom: 2.5em;
+    text-align: left;
+    margin-left: 0.2em;
+}
+
+main section.tips img{
+    float: right;
+    width: 5em;
+    height: 5.4em;
+    margin-top: -10em;
+    margin-right: 1.5em;
+    margin-left: 3em;
+}
+
+
+main section.tips img.shirt {
+    float: left; /* Verplaatst de afbeelding naar links */
+    margin-right: 3em; /* Ruimte rechts van de afbeelding */
+    margin-left: 0; /* Geen extra ruimte links */
+    margin-top: -10em; /* Houd consistent met andere afbeeldingen */
+}
+
+
+/* opmaak voor de locatie afbeelding */
+a img {
+    width: 15%; 
+    height: auto; 
+    display: block; 
+    margin: 1em auto;    
+}
+
+
+
+
+/* Verhoog de grootte van de afbeeldingen onder h2 en zet ze meer naar links */
+section img {
+    width: 50%; /* Verhoog de grootte van de afbeeldingen onder h2 */
+    margin: 1em 0; /* Voeg wat ruimte toe boven en onder de afbeeldingen */
+}
+
+
+section img:nth-child(even) {
+    float: right; /* Even afbeeldingen (2e, 4e, etc.) rechts */
+    margin-left: 20px;
+}
+
+
+/* Zorg ervoor dat de afbeeldingen onder h2 de gewenste grootte hebben */
+main section img {
+    width: 55%; /* Maak de afbeeldingen groter */
+    margin: 0.5em; /* Voeg wat extra ruimte toe tussen de afbeeldingen */
+}
 
 
 
